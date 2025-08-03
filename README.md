@@ -1,4 +1,4 @@
-# Melange Tmux Theme
+# Melangey Tmux Theme
 
 A powerline-style tmux theme based on the [melange-nvim](https://github.com/savq/melange-nvim) colorscheme.
 
@@ -12,9 +12,20 @@ A powerline-style tmux theme based on the [melange-nvim](https://github.com/savq
 
 ## Installation
 
+### Using TPM (Recommended)
+
+1. Add plugin to the list of TPM plugins in `~/.tmux.conf`:
+   ```bash
+   set -g @plugin 'nick/melangey-tmux'
+   ```
+
+2. Hit `prefix + I` to fetch and source the plugin.
+
+### Manual Installation
+
 1. Source the theme in your `~/.tmux.conf`:
    ```bash
-   source-file /path/to/melange-tmux.conf
+   source-file /path/to/melangey-tmux.conf
    ```
 
 2. Reload tmux configuration:
@@ -33,4 +44,4 @@ The theme uses the melange dark palette:
 
 ## Customization
 
-You can modify colors by editing the variables at the top of `melange-tmux.conf`. All colors are based on the melange palette for consistency with your neovim setup.
+You can modify colors by editing the variables at the top of `melangey-tmux.conf`. All colors are based on the melange palette for consistency with your neovim setup.
