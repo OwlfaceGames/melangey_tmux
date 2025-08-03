@@ -26,7 +26,7 @@ A powerline-style tmux theme based on the [melange-nvim](https://github.com/savq
 
 1. Add plugin to the list of TPM plugins in `~/.tmux.conf`:
    ```bash
-   set -g @plugin 'nick/melangey-tmux'
+   set -g @plugin 'owlfacegames/melangey-tmux'
    ```
 
 2. Hit `prefix + I` to fetch and source the plugin.
