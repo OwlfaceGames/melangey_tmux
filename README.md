@@ -10,6 +10,16 @@ A powerline-style tmux theme based on the [melange-nvim](https://github.com/savq
 - **No right-side clutter** - clean, minimal design
 - **Melange color palette** - warm, cozy colors that match your neovim theme
 
+## Preview
+
+![Theme Preview](preview.png)
+
+*Normal state with session name in cyan*
+
+![Prefix Preview](prefix_preview.png)
+
+*Prefix state with session name in red*
+
 ## Installation
 
 ### Using TPM (Recommended)
